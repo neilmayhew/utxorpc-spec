@@ -73,3 +73,7 @@ plugins:
     out: gen/docs
     opt:
       - markdown,docs.md
+
+  - plugin: haskell-protolens
+    path: proto-lens-protoc
+    out: gen/haskell
